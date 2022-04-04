@@ -1,38 +1,141 @@
-.App {
-  text-align: center;
-}
+/* .App { */
+  /* text-align: center; */
+/* } */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* .App-logo { */
+  /* height: 40vmin; */
+  /* pointer-events: none; */
+/* } */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/* @media (prefers-reduced-motion: no-preference) { */
+  /* .App-logo { */
+    /* animation: App-logo-spin infinite 20s linear; */
+  /* } */
+/* } */
+
+/* /~ .App-header { ~/ */
+  /* /~ background-color: #282c34; ~/ */
+  /* /~ min-height: 100vh; ~/ */
+  /* /~ display: flex; ~/ */
+  /* /~ flex-direction: column; ~/ */
+  /* /~ align-items: center; ~/ */
+  /* /~ justify-content: center; ~/ */
+  /* /~ font-size: calc(10px + 2vmin); ~/ */
+  /* /~ color: white; ~/ */
+/* /~ } ~/ */
+
+/* .App-link { */
+  /* color: #61dafb; */
+/* } */
+
+/* @keyframes App-logo-spin { */
+  /* from { */
+    /* transform: rotate(0deg); */
+  /* } */
+  /* to { */
+    /* transform: rotate(360deg); */
+  /* } */
+/* } */
+
+.headers {
+  display: grid;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: "Space Mono", monospace;
+}
+.title {
+  padding-left: 250px;
+  font-size: 50px;
+}
+.catMenu {
+  display: grid;
+  justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.multicolortext {
+  background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent
+}
+.answers {
+  justify-content: flex;
+  padding-bottom: 10px;
+}
+.answer {
+  margin: 5px;
+  font-family: "Space Mono", monospace;
+  font-size: 20px;
+  letter-spacing: .5px;
+}
+.startButton {
+  border-radius: 5px;
+  font-family: "Space Mono", monospace;
+  font-size: 20px;
+  letter-spacing: .5px;
+}
+h2 {
+  font-family: "Space Mono", monospace;
+}
+.startMenu {
+  font-family: "Space Mono", monospace;
+  font-size: 20px;
+  letter-spacing: .5px;
+}
+button {
+  border-radius: 5px;
+  font-family: "Space Mono", monospace;
+  font-size: 14px;
+  letter-spacing: .5px;
+}
+.questMenuItem {
+  margin: 2px;
+  font-family: "Space Mono", monospace;
+  font-size: 20px;
+  letter-spacing: .5px;
+}
+.mainPage {
+  display: grid;
+  justify-content: center;
+  width: 500px;
+  padding-left: 480px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.question {
+  font-family: "Space Mono", monospace;
+  font-size:20px;
+  letter-spacing: .5px;
+  font-weight: bolder;
+  overflow-wrap: break-word; 
+}
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+.timer {
+  font-family: "Space Mono", monospace;
+  font-size:20px;
+  letter-spacing: .5px;
+  font-weight: bolder;
+  display: grid;
+  justify-content: flex-start;
+  padding-left: 80px;
+}
+.navButtons {
+  padding-left: 60px;
+}
+.astley {
+  padding-top: 10px;
+}
+.clock{
+  padding-left: 60px;
+}
+.timerButton {
+  width: 80px;
+}
+.timerButtons {
+  display: grid;
+  padding-left: 40px;
 }
